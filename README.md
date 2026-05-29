@@ -30,12 +30,13 @@ Para sua segurança, faça o teste primeiro! Crie uma pasta de testes no seu com
    $caminhoOrigem = "C:\TesteLivros"
 Na lista $listaDeColecoes, você pode alterar, adicionar ou remover os nomes das pastas que deseja que o script crie automaticamente para você:
 
-PowerShell
+```PowerShell
 $listaDeColecoes = @(
     "Coleção Riqueza", 
     "Coleção Ficção", 
     # Adicione as suas aqui!
-)
+) 
+```
 
 ### Passo 3: Execução
 
@@ -45,7 +46,7 @@ Navegue até a pasta onde você salvou o script ou simplesmente execute-o pelo P
 
 Assista à mágica acontecer! O script criará as pastas e limpará os nomes dos arquivos soltos para você arrastá-los manualmente para onde preferir.
 
-# ⚠️ Possíveis Erros (A Maldição dos 260 Caracteres)
+## ⚠️ Possíveis Erros (A Maldição dos 260 Caracteres)
 
-Se algum livro não for renomeado e o PowerShell exibir um erro vermelho informando PathTooLongException, significa que o caminho original do arquivo excedeu o limite histórico de 260 caracteres do Windows. Para resolver isso, mova os arquivos problemáticos para um caminho mais curto (ex: C:\Temp), rode o script lá, e depois devolva-os para a sua biblioteca!
+Se algum livro não for renomeado e o PowerShell exibir um erro vermelho informando `PathTooLongException`, significa que o caminho original do arquivo `excedeu o limite histórico de 260 caracteres do Windows.` Para resolver isso, vá até o arquivo e altere de forma manual, garantindo que o arquivo fique a seu gosto.
 
