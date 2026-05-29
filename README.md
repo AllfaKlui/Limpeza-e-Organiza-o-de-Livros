@@ -50,3 +50,15 @@ Assista à mágica acontecer! O script criará as pastas e limpará os nomes dos
 
 Se algum livro não for renomeado e o PowerShell exibir um erro vermelho informando `PathTooLongException`, significa que o caminho original do arquivo `excedeu o limite histórico de 260 caracteres do Windows.` Para resolver isso, vá até o arquivo e altere de forma manual, garantindo que o arquivo fique a seu gosto.
 
+## 📥 Como Obter o Script
+
+Existem duas formas de copiar o código do nosso laboratório para o seu computador:
+
+### Opção 1: Link Direto (Recomendado)
+1. [Clique aqui para acessar o arquivo do script](./OrganizadorUniversalV5.ps1).
+2. Ao abrir a página do código aqui no GitHub, clique no botão **"Raw"** (localizado no canto superior direito do código).
+3. Uma tela limpa apenas com as linhas de código vai se abrir. Pressione `Ctrl + A` para selecionar tudo e `Ctrl + C` para copiar.
+4. Cole no seu PowerShell ISE ou em um Bloco de Notas e salve como `OrganizadorUniversalV5.ps1`.
+
+### Opção 2: Clonando o Repositório
+Se você já domina as ferramentas de Git, basta clonar este repositório na sua máquina pelo navegador ou terminal.
